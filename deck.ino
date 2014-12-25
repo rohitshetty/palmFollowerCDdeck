@@ -31,7 +31,7 @@ unsigned dist = uS /US_ROUNDTRIP_CM;
 Serial.println(dist); //Debug em all 
 if(dist >= 6 && dist < 20 ){
 out();
-}else if (dist < 4 and dist > 0.1 ){
+}else if (dist < 4 && dist > 0.1 ){
   in();
 }
 else{
